@@ -1,0 +1,15 @@
+= Jenkins Datadog check agent
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+:toc:
+
+This repository contains definition of a DataDog agent based Docker image, performing specific checks for Jenkins infrastructure.
+
+== DataDog checks
+
+DataDog permits to configure custom checks on an agent, which lets us perform specific checks and push service state and/or custom metrics to DataDog backend.
+
+See : https://docs.datadoghq.com/developers/agent_checks/
